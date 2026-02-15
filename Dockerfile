@@ -11,7 +11,7 @@ RUN mvn clean package -DskipTests
 
 
 # ----------- RUNTIME STAGE -----------
-FROM eclipse-temurin:21-jre-slim
+FROM eclipse-temurin:21-jdk-slim
 
 WORKDIR /app
 
