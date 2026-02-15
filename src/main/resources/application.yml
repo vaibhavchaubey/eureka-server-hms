@@ -2,11 +2,8 @@ spring:
   application:
     name: eureka-server-hms
 server:
-  port: 8761
+  port: ${PORT:8761}
 eureka:
   client:
     register-with-eureka: false
-    fetch-registry: false  
-
-
-
+    fetch-registry: false
